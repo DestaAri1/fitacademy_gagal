@@ -6,6 +6,8 @@
         <a href=""><img class="h-20 lg:h-24" src="{{ asset('image/Fit Academy 2022 Logo PNG.png') }}" alt=""></a>
     </header>
 
+    @include('message.message')
+
     <div class="mt-10 lg:mt-20 text-center text-white flex flex-col lg:flex-row lg:text-start">
         <div class="order-1">
             <div class="order-1">

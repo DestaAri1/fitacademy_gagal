@@ -58,11 +58,11 @@ class RequestController extends Controller
         });
 
         if(ModelsRequest::where('email', $request->email)->touch() && ModelsRequest::where('jenis', $request->jenis)->touch()) {
-            return redirect()->back();
+            return redirect()->back()->with('success', 'E-Book Berhasil Terkirim Melaui Email');
         } else {
             ModelsRequest::create($data);
         }
 
-        return redirect()->back();
+        return redirect()->back()->with('success', 'E-Book Berhasil Terkirim Melaui Email');
     }
 }
