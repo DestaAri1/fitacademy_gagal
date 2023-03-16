@@ -12,9 +12,8 @@
         <div class="order-1">
             <div class="order-1">
                 <h1 class="text-xl leading-normal tracking-widest lg:text-4xl lg:text-start">
-                    <b class="font-bold font-nunito">EMPLOYEE 101:</b class="font-semibold lg:font-normal"> Cara Ampuh
-                    <br class="font-semibold lg:font-normal">dan Efektif Meningkatkan Kinerja
-                    <br class="font-semibold lg:font-normal"> Karyawan agar Lebih Produktif
+                    <b class="font-bold font-nunito">EMPLOYEE 101:
+                    </b class="font-semibold lg:font-normal"> Cara Ampuh dan Efektif Meningkatkan Kinerja Karyawan agar Lebih Produktif
                 </h1>
             </div>
 
@@ -32,11 +31,11 @@
                 </div>
                 <form action="{{ route('emailPerusahaan') }}" method="POST">
                     @csrf
-                    <div class="flex flex-row mt-4 mb-6">
+                    <div class="flex flex-row mx-4 lg:mx-0 mt-4 mb-6">
                         <input type="hidden" name="jenis" id="jenis" value="perusahaan">
                         <input type="email" id="email" name="email"
                             placeholder="masukkan alamat email"
-                            class="placeholder:text-xs placeholder:pl-4 basis-3/4 h-14 rounded-full bg-gray-200 border border-gray-500 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 lg:basis-9/12"
+                            class="focus:pl-6 focus:placeholder:pl-0 placeholder:text-xs placeholder:pl-4 basis-3/4 h-14 rounded-full bg-gray-200 border border-gray-500 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 focus: block w-full p-2.5 lg:basis-9/12"
                             required>
                         <button class="px-4 py-2 w-32 ml-4 font-bold text-white bg-[#F58726] rounded-full hover:bg-[#3F3F3F] transition duration-500 ease-in-out">
                             KIRIM
