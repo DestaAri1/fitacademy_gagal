@@ -40,10 +40,6 @@ Route::get('/content_creator', [LandingPageController::class, 'contentCreator'])
 
 Route::get('/netizen', [LandingPageController::class, 'netizen'])->name('netizen');
 
-// Route::view('/perusahaan', 'landingPage.landingPerusahaan');
-// Route::view('/contentcreator', 'landingPage.landingContentCreator');
-// Route::view('/netizen', 'landingPage.landingNetizen');
-
 // save email to database and send e-book to email
 Route::post('/perusahaan/mail', [RequestController::class, 'addRequest'])->name('emailPerusahaan');
 Route::post('/contentcreator/mail', [RequestController::class, 'addRequest'])->name('emailContent');
