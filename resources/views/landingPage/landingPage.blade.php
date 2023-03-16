@@ -1,7 +1,7 @@
 @extends('landingPage.master')
 
 @section('konten')
-<div class="h-[48rem] relative font-publicSans">
+<div class="h-[48rem] md:h-[55rem] relative font-publicSans">
     <nav class="relative flex justify-between md:py-2 px-10 lg:px-32 lg:py-3">
         <a href="#"><img class="h-20 md:h-16 lg:h-24 2xl:h-28" src="{{ asset('image/Fit Academy 2022 Logo PNG.png') }}" alt=""></a>
         <a href="" class="place-self-center hidden">
@@ -14,7 +14,7 @@
     <div class="flex flex-col lg:flex-row lg:mx-36 lg:mt-24">
         <div class="text-center lg:w-4/5 lg:mr-7">
             <div class="mt-20 md:mt-12 lg:mt-0">
-                <h1 class="text-[#2F97D4] text-2xl lg:text-start font-bold leading-normal tracking-widest md:text-xl lg:text-3xl 2xl:text-5xl">Dapatkan Berbagai Modul Penunjang Kariermu</h1>
+                <h1 class="text-[#2F97D4] text-2xl lg:text-start font-bold leading-normal tracking-widest md:text-2xl lg:text-3xl 2xl:text-5xl">Dapatkan Berbagai Modul Penunjang Kariermu</h1>
             </div>
             <div class="mt-16 lg:mt-16">
                 <h2 class="text-base font-normal md:text-lg lg:text-start lg:text-xl 2xl:text-3xl">Pilih Siapa Dirimu? <br>
@@ -57,7 +57,7 @@
     </div>
 </div>
 
-<footer class="bg-[#2F97D4] h-[32rem] font-publicSans text-white lg:h-96">
+<footer class="bg-[#2F97D4] h-[32rem] md:h-[25rem] font-publicSans text-white lg:h-96">
     <div class="px-6">
         <h1 class="text-3xl font-bold text-center text-white pt-24 md:text-2xl md:pt-14">FitAcademy</h1>
         <h3 class="text-xl font-bold text-center">Platform pembelajaran berbasis microlearning</h3>
