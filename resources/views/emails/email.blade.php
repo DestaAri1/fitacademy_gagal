@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
     <title>FitAcademy</title>
+    <style>
+        @media only screen and (min-width: 600px) {
+        .gambar {
+            width: 40rem;
+        }
+    }
+    </style>
 </head>
 <body>
-    <img src="{{ $message->embed(public_path().$gambar) }}">
+    <img class="gambar" src="{{ $message->embed(public_path().$gambar) }}">
     <p>Selamat</p>
     <p>E-Book <b>"{{ $judul }}"</b> Anda berhasil terkirim!</p>
     <p>Terima kasih sudah tertarik untuk memiliki e-book ini. {{ $t1 }}</p>
