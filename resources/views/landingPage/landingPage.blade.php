@@ -25,7 +25,7 @@
 
         <div class="mx-6 lg:mx-0 mt-14 lg:mt-0 gap-3 lg:gap-10 flex flex-row justify-center items-center lg:justify-evenly">
             <div class="group max-w-sm rounded-lg flex flex-row justify-center relative">
-                <div class="group-hover:border-x-2 group-hover:border-b-4 group-hover:border-x-[#F58726]/70 group-hover:border-b-[#F58726]/100 group-hover:rounded-[2.7rem] transition delay-150 duration-300">
+                <div class="transition delay-150 duration-300">
                     <img class="rounded-t-lg lg:hidden" src="{{ asset('image/cewek1-landingpage-mob.png') }}" alt="" />
                     <img class="rounded-t-lg hidden lg:block" src="{{ asset('image/Group-12.png') }}" alt="" />
                 </div>
@@ -35,7 +35,7 @@
             </div>
 
             <div class="group max-w-sm rounded-lg flex flex-row justify-center relative">
-                <div class="group-hover:border-x-2 group-hover:border-b-4 group-hover:border-x-[#F58726]/70 group-hover:border-b-[#F58726]/100 group-hover:rounded-[2.7rem] transition delay-150 duration-300">
+                <div class="transition delay-150 duration-300">
                     <img class="rounded-t-lg lg:hidden" src="{{ asset('image/cewek2-landingpage-mob.png') }}" alt="" />
                     <img class="rounded-t-lg hidden lg:block" src="{{ asset('image/Group-10.png') }}" alt="" />
                 </div>
@@ -45,7 +45,7 @@
             </div>
 
             <div class="group max-w-sm rounded-lg flex flex-row justify-center relative">
-                <div class="group-hover:border-x-2 group-hover:border-b-4 group-hover:border-x-[#F58726]/70 group-hover:border-b-[#F58726]/100 group-hover:rounded-[2.7rem] transition delay-150 duration-300">
+                <div class="transition delay-150 duration-300">
                     <img class="rounded-t-lg lg:hidden" src="{{ asset('image/cewek3-landingpage-mob.png') }}" alt="" />
                     <img class="rounded-t-lg hidden lg:block" src="{{ asset('image/Group-8.png') }}" alt="" />
                 </div>
@@ -57,11 +57,11 @@
     </div>
 </div>
 
-<footer class="bg-[#2F97D4] h-[32rem] md:h-[25rem] font-publicSans text-white lg:h-96">
+<footer class="bg-[#2F97D4] h-[36rem] md:h-[25rem] text-center font-publicSans text-white lg:h-[30rem]">
     <div class="px-6">
-        <h1 class="text-3xl font-bold text-center text-white pt-24 md:text-2xl md:pt-14">FitAcademy</h1>
-        <h3 class="text-xl font-bold text-center">Platform pembelajaran berbasis microlearning</h3>
-        <h2 class="px-6 mt-6 text-sm font-normal text-center text-white md:text-xl ">Ayo bergabung dan menjadi lebih dekat dengan FitAcademy! <br>Kunjungi sosial media kami untuk mendapatkan informasi terbaru</h2>
+        <h1 class="text-3xl font-bold text-white pt-24 md:text-2xl md:pt-14">FitAcademy</h1>
+        <h3 class="text-xl font-bold">Platform pembelajaran berbasis microlearning</h3>
+        <h2 class="px-6 mt-6 text-sm font-normal text-white md:text-xl ">Ayo bergabung dan menjadi lebih dekat dengan FitAcademy! <br>Kunjungi sosial media kami untuk mendapatkan informasi terbaru</h2>
 
         <div class="flex flex-col items-center mt-8 md:flex-row md:justify-center">
             <a class="group" href="https://www.tiktok.com/@fitacademy.id?_t=8aPRooWJ6eI&_r=1">
@@ -79,9 +79,11 @@
             </a>
         </div>
 
-        <div class="text-xs font-normal text-center mt-9 lg:text-sm">
-            <h6>Jl. Pangeran Wirosobo Gg. Wiropamungkas No.8, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</h6>
+        <div class="text-xs font-normal mt-9 lg:text-sm">
+            <h6>Jl. Pangeran Wirosobo Gg. Wiropamungkas No.8, Sorosutan, Kec. Umbulharjo, <br> Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</h6>
         </div>
+
+        <h6 class="mb-10 mt-12 md:mt-20 text-xs">Copyright © 2023 FitAcademy. All rights reserved.</h6>
     </div>
 </footer>
 @endsection
