@@ -3,7 +3,7 @@
 @section('konten')
 <div class="bg-[#3281C4] lg:h-[60rem] px-7 lg:pl-40">
     <header class="relative flex justify-start">
-        <a href=""><img class="h-20 lg:h-24" src="{{ asset('image/Fit Academy 2022 Logo PNG.png') }}" alt=""></a>
+        <a href="/"><img class="h-20 lg:h-24" src="{{ asset('image/Fit Academy 2022 Logo PNG.png') }}" alt=""></a>
     </header>
 
     @include('message.message')

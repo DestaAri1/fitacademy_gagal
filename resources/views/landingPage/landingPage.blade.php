@@ -3,7 +3,7 @@
 @section('konten')
 <div class="h-[48rem] md:h-[55rem] relative font-publicSans">
     <nav class="relative flex justify-between md:py-2 px-10 lg:px-32 lg:py-3">
-        <a href="#"><img class="h-20 md:h-16 lg:h-24 2xl:h-28" src="{{ asset('image/Fit Academy 2022 Logo PNG.png') }}" alt=""></a>
+        <a href="/"><img class="h-20 md:h-16 lg:h-24 2xl:h-28" src="{{ asset('image/Fit Academy 2022 Logo PNG.png') }}" alt=""></a>
         <a href="" class="place-self-center hidden">
             <button class="py-1 w-20 lg:w-32 h-11 lg:h-16 ml-4 text-base lg:text-2xl font-bold text-[#F58726] hover:text-white border-[3px] border-[#F58726] rounded-full hover:bg-[#F58726] transition duration-500">
                 Blog
