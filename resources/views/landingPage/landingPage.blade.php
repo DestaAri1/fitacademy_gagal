@@ -30,7 +30,7 @@
                     <img class="rounded-t-lg hidden lg:block" src="{{ asset('image/Group-12.png') }}" alt="" />
                 </div>
                 <div class="md:mt-6 z-10 absolute -bottom-2 lg:bottom-16 lg:-left-4">
-                    <a href="{{ url('/contentcreator') }}" class="px-6 py-3 text-sm font-medium text-center text-white bg-[#F58726] rounded-full group-hover:px-10 transition-[padding]  delay-150 duration-300">Pilih</a>
+                    <a href="{{ route('perusahaan') }}" class="px-6 py-3 text-sm font-medium text-center text-white bg-[#F58726] rounded-full group-hover:px-10 transition-[padding]  delay-150 duration-300">Pilih</a>
                 </div>
             </div>
 
@@ -40,7 +40,7 @@
                     <img class="rounded-t-lg hidden lg:block" src="{{ asset('image/Group-10.png') }}" alt="" />
                 </div>
                 <div class="md:mt-6 z-10 absolute -bottom-2 lg:bottom-16 lg:-left-4">
-                    <a href="{{ url('/contentcreator') }}" class="px-6 py-3 text-sm font-medium text-center text-white bg-[#F58726] rounded-full group-hover:px-10 transition-[padding] delay-150 duration-300">Pilih</a>
+                    <a href="{{ route('content_creator') }}" class="px-6 py-3 text-sm font-medium text-center text-white bg-[#F58726] rounded-full group-hover:px-10 transition-[padding] delay-150 duration-300">Pilih</a>
                 </div>
             </div>
 
@@ -50,7 +50,7 @@
                     <img class="rounded-t-lg hidden lg:block" src="{{ asset('image/Group-8.png') }}" alt="" />
                 </div>
                 <div class="md:mt-6 z-10 absolute -bottom-2 lg:bottom-16 lg:-left-4">
-                    <a href="{{ url('/netizen') }}" class="px-6 py-3 text-sm font-medium text-center text-white bg-[#F58726] rounded-full group-hover:px-10 transition-[padding] delay-150 duration-300">Pilih</a>
+                    <a href="{{ route('netizen') }}" class="px-6 py-3 text-sm font-medium text-center text-white bg-[#F58726] rounded-full group-hover:px-10 transition-[padding] delay-150 duration-300">Pilih</a>
                 </div>
             </div>
         </div>

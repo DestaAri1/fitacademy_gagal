@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RequestController;
+use App\Http\Controllers\LandingPageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,9 +34,15 @@ Route::middleware('auth')->group(function () {
 });
 
 // routing ke halaman landing page perusahaan, content creator, netizen
-Route::view('/perusahaan', 'landingPage.landingPerusahaan');
-Route::view('/contentcreator', 'landingPage.landingContentCreator');
-Route::view('/netizen', 'landingPage.landingNetizen');
+Route::get('/perusahaan', [LandingPageController::class, 'perusahaan'])->name('perusahaan');
+
+Route::get('/content_creator', [LandingPageController::class, 'contentCreator'])->name('content_creator');
+
+Route::get('/netizen', [LandingPageController::class, 'netizen'])->name('netizen');
+
+// Route::view('/perusahaan', 'landingPage.landingPerusahaan');
+// Route::view('/contentcreator', 'landingPage.landingContentCreator');
+// Route::view('/netizen', 'landingPage.landingNetizen');
 
 // save email to database and send e-book to email
 Route::post('/perusahaan/mail', [RequestController::class, 'addRequest'])->name('emailPerusahaan');

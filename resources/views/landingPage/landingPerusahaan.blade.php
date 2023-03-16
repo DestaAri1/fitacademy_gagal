@@ -6,7 +6,9 @@
         <a href=""><img class="h-20 lg:h-24" src="{{ asset('image/Fit Academy 2022 Logo PNG.png') }}" alt=""></a>
     </header>
 
-    <div class="mt-10 lg:mt-20 text-center text-white flex flex-col lg:flex-row lg:text-start">
+    @include('message.message')
+
+    <div class="flex flex-col mt-10 text-center text-white lg:mt-20 lg:flex-row lg:text-start">
         <div class="order-1">
             <div class="order-1">
                 <h1 class="text-xl leading-normal tracking-widest lg:text-4xl lg:text-start">
@@ -22,10 +24,10 @@
 
             <div class="order-3">
                 <div class="lg:mt-8 lg:px-0">
-                    <h2 class="px-6 text-sm font-poppins font-normal text-justify lg:px-0 lg:text-base">Modul pembelajaran ini didesain bagi Anda yang ingin meningkatkan kinerja karyawan agar menjadi lebih produktif ketika bekerja. Dalam modul ini, Anda akan mengetahui bagaimana langkah-langkah hingga manfaat yang nantinya akan didapatkan ketika produktivitas karyawan meningkat. Setelah selesai membaca modul ini, Anda akan mampu memahami dan menerapkan berbagai macam cara untuk meningkatkan kinerja karyawan secara optimal. Dampaknya, perusahaan atau bisnis yang Anda jalankan bisa memperoleh profit yang maksimal.</h2>
+                    <h2 class="px-6 text-sm font-normal text-justify font-poppins lg:px-0 lg:text-base">Modul pembelajaran ini didesain bagi Anda yang ingin meningkatkan kinerja karyawan agar menjadi lebih produktif ketika bekerja. Dalam modul ini, Anda akan mengetahui bagaimana langkah-langkah hingga manfaat yang nantinya akan didapatkan ketika produktivitas karyawan meningkat. Setelah selesai membaca modul ini, Anda akan mampu memahami dan menerapkan berbagai macam cara untuk meningkatkan kinerja karyawan secara optimal. Dampaknya, perusahaan atau bisnis yang Anda jalankan bisa memperoleh profit yang maksimal.</h2>
                 </div>
 
-                <div class="mt-14 font-poppins font-semibold text-xl">
+                <div class="text-xl font-semibold mt-14 font-poppins">
                     <h2>DAPATKAN E-BOOK LENGKAP INI SECARA GRATIS!</h2>
                 </div>
                 <form action="{{ route('emailPerusahaan') }}" method="POST">
