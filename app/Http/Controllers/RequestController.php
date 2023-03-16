@@ -51,7 +51,7 @@ class RequestController extends Controller
 
         });
 
-        if(ModelsRequest::where('email', $request->email)->touch() && ModelsRequest::where('email', $request->jenis)->touch()) {
+        if(ModelsRequest::where('email', $request->email)->touch() && ModelsRequest::where('jenis', $request->jenis)->touch()) {
             return redirect()->back();
         } else {
             ModelsRequest::create($data);
