@@ -1,7 +1,7 @@
 @extends('landingPage.master')
 
 @section('konten')
-<div class="h-[48rem] md:h-[55rem] relative font-publicSans">
+<div class="h-[44rem] md:h-[55rem] relative font-publicSans">
     <nav class="relative flex justify-between md:py-2 px-10 lg:px-32 lg:py-3">
         <a href="/"><img class="h-20 md:h-16 lg:h-24 2xl:h-28" src="{{ asset('image/Fit Academy 2022 Logo PNG.png') }}" alt=""></a>
         <a href="" class="place-self-center hidden">
@@ -16,14 +16,14 @@
             <div class="mt-20 md:mt-12 lg:mt-0">
                 <h1 class="text-[#2F97D4] text-2xl lg:text-start font-bold leading-normal tracking-widest md:text-2xl lg:text-3xl 2xl:text-5xl">Dapatkan Berbagai Modul Penunjang Kariermu</h1>
             </div>
-            <div class="mt-16 lg:mt-16">
+            <div class="mt-12 lg:mt-16">
                 <h2 class="text-base font-normal md:text-lg lg:text-start lg:text-xl 2xl:text-3xl">Pilih Siapa Dirimu? <br>
                     Temukan Konten Pembelajaran yang Sesuai
                 </h2>
             </div>
         </div>
 
-        <div class="mx-6 lg:mx-0 mt-14 lg:mt-0 gap-3 lg:gap-10 flex flex-row justify-center items-center lg:justify-evenly">
+        <div class="mx-6 lg:mx-0 mt-10 lg:mt-0 gap-3 lg:gap-10 flex flex-row justify-center items-center lg:justify-evenly">
             <div class="group max-w-sm rounded-lg flex flex-row justify-center relative">
                 <div class="transition delay-150 duration-300">
                     <img class="rounded-t-lg lg:hidden" src="{{ asset('image/cewek1-landingpage-mob.png') }}" alt="" />
@@ -72,7 +72,7 @@
             </a>
 
             <a class="group" href="https://www.instagram.com/fitacademy_id/">
-                <div class="flex items-center mt-5 ml-2 md:mt-0 lg:ml-8">
+                <div class="flex items-center mt-5 ml-1 md:mt-0 lg:ml-8">
                     <div class="bg-[url('/image/instagram-icon.svg')] group-hover:bg-[url('image/instagram-black.svg')] w-7 h-7 md:w-10 md:h-10"></div>
                     <h3 class="ml-8 group-hover:text-[#3f3f3f] md:ml-5">fitacademy_id</h3>
                 </div>

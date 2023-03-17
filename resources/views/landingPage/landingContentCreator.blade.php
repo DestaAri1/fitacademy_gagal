@@ -18,7 +18,7 @@
             </div>
 
             <div class="block lg:hidden lg:w-[250rem] order-2 lg:order-3">
-                <img src="{{ asset('image/MOCKUP-1.png') }}" alt="">
+                <img src="{{ asset('image/MOCKUP-2.png') }}" alt="">
             </div>
 
             <div class="order-3">
